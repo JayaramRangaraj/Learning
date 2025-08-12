@@ -1,0 +1,27 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# ---- Virtual Environments ----
+venv/
+.env/
+ENV/
+.venv/
+
+# ---- Environment variables ----
+# Keep secrets out of git
+*.env
+
+# ---- FastAPI Specific ----
+# Ignore compiled cache inside project folders
+FastAPI/**/__pycache__/
+
+# ---- OS-specific ----
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
